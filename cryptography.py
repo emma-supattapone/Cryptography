@@ -44,4 +44,3 @@ for e in g:
 p = 
 p = associations.find(char)
 print(p)
-emma
