@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Emma Supattapone
-Credit: Abby Feyrer
+Credit: Abby Feyrer and Mr. Dennison
 
 Assignment:
 
@@ -33,21 +33,51 @@ while x == 1:
         print("Did not understand command, try again.")
 """
 
-f = input("Messege: ")
+y = input("Messege: ")
 g = input("Key: ")
-f = list(f)
+y = list(y)
 g = list(g)
-#i = f.count
-#print(i)
-print(f)
-print(g)
 
-for h in f:
-    f = associations.find(h)
-for e in g:
-    g = associations.find(e)
-print(f)
-print(g)
+m = []
+for x in y:
+    m.append(associations.find(x))
+print(m)
 
-associations[index]
+n = []
+for x in g:
+    n.append(associations.find(x))
+print(n)
+
+
+i = len(y)
+print(i)
+j = len(g)
+print(j)
+
+if i > j:
+    w = i / j
+    mm = w * m
+    print(mm)
+    mn = zip(mm,n)
+    print(list(mn))
+elif j > i:
+    k = j / i
+    nn = k * n
+    mn = zip(m,nn)
+    print(list(mn))
+else:
+    mn = zip(m,n)
+    print(list(mn))
+
+#print(y)
+#print(g)
+
+u = 15 % 3
+print(u)
+
+#for e in g:
+#    g = associations.find(e)
+#print(g)
+
+#associations[index]
 #print(p)
