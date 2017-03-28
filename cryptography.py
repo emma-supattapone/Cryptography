@@ -56,14 +56,15 @@ print(j)
 
 if i > j:
     w = i / j
-    mm = w * m
-    print(mm)
-    mn = zip(mm,n)
+    print(w)
+    nn = int(w) * n
+    print(nn)
+    mn = zip(m,nn)
     print(list(mn))
 elif j > i:
     k = j / i
-    nn = k * n
-    mn = zip(m,nn)
+    mm = int(k) * m
+    mn = zip(mm,n)
     print(list(mn))
 else:
     mn = zip(m,n)
