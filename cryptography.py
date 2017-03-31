@@ -24,7 +24,6 @@ while x == 1:
         m = []
         for x in y:
             m.append(associations.find(x))
-#            print(m)
 
         n = []
         for x in g:
@@ -44,6 +43,7 @@ while x == 1:
         for x in m:
             print(x,end="")
         print(" ")
+        x=1
     elif ham == "d":
         mesgg = input("Message: ")
         kyy = input("Key: ")
