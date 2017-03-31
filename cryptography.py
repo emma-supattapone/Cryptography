@@ -61,7 +61,8 @@ if i > j:
     print(nn)
     mn = zip(m,nn)
     print(list(mn))
-    for r in 
+    for (m,nn) in mn:
+        print(m)
 elif j > i:
     k = j / i
     mm = (int(k) + 1) * m
