@@ -48,6 +48,7 @@ while x == 1:
         mesgg = input("Message: ")
         kyy = input("Key: ")
         print("decrypt")
+        x=1
     elif ham == "q":
         print("Goodbye!")
         x = 2
