@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Emma Supattapone
-Credit: ABBY FEYRER and Mr. Dennison
+Credit:***** >>> ***** ABBY FEYRER ***** <<< *****        (and Mr. Dennison)
 
 Assignment:
 
@@ -45,15 +45,34 @@ while x == 1:
         print(" ")
         x=1
     elif ham == "d":
-        mesgg = input("Message: ")
-        kyy = input("Key: ")
-        print("decrypt")
+        z = input("Message: ")
+        g = input("Key: ")
+        z = list(z)
+        g = list(g)
+        
+        u = []
+        for x in z:
+            u.append(associations[x])
+        n = []
+        for x in g:
+            n.append(associations[x])
+        k=0
+        j=0
+        while k<len(u):
+            t=u[k]+n[j]
+            if t>=len(nn)-1:
+                t=t-len(nn)
+            u[k]=nn[b]
+            k=k+1
+            j=j+1
+            if j >=len(n)-1:
+                j=j-len(n)
+        for x in u:
+            print(x,end=" ")
+        print(" ")
         x=1
     elif ham == "q":
         print("Goodbye!")
         x = 2
     else:
         print("Did not understand command, try again.")
-
-
-
