@@ -9,7 +9,8 @@ Write and submit a program that encrypts and decrypts user data.
 
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
 """
-associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
+associations = "
+"
 nn=list(associations)
 
 x = 1
@@ -59,7 +60,7 @@ while x == 1:
         k=0
         j=0
         while k<len(u):
-            t=u[k]+n[j]
+            t=u[k]-n[j]
             if t>=len(nn)-1:
                 t=t-len(nn)
             u[k]=nn[b]
