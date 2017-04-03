@@ -20,15 +20,12 @@ while x == 1:
         g = input("Key: ")
         y = list(y)
         g = list(g)
-
         m = []
         for x in y:
             m.append(associations.find(x))
-
         n = []
         for x in g:
             n.append(associations.find(x))
-        
         i=0
         j=0
         while i<len(m):
@@ -49,7 +46,6 @@ while x == 1:
         g = input("Key: ")
         z = list(z)
         g = list(g)
-        
         u = []
         for x in z:
             u.append(associations.find(x))
