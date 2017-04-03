@@ -76,3 +76,4 @@ while x == 1:
         x = 2
     else:
         print("Did not understand command, try again.")
+        x=1
