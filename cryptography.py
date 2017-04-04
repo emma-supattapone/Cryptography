@@ -68,9 +68,9 @@ while x == 1:
         print(" ")
         x=1
     elif ham == "q":
-        x = 2
         print("Goodbye!")
         print(" ")
+        x = 2
     else:
         print("Did not understand command, try again.")
         x=1
