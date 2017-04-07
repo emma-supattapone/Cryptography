@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Emma Supattapone
-Credit: ***** >>> ***** ABBY FEYRER ***** <<< *****        (and Mr. Dennison)
+Credit: ************** ABBY FEYRER **************        (and Mr. Dennison)
 
 Assignment:
 
