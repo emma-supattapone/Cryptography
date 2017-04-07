@@ -16,7 +16,7 @@ x = 1
 while x == 1: 
     ham = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if ham == "e":
-        y = input("Messege: ")
+        y = input("Message: ")
         g = input("Key: ")
         y = list(y)
         g = list(g)
